@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400italic);
+
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif);
+
+.contain{
+  position:relative;
+  top:10px;
+  height:500px;
+}
+
+.contain form span:before {
+  counter-increment:section;
+  content:counter(section);
+  border:2px solid black;
+  width:40px;
+  height:40px;
+  color:white;
+  display:inline-block;
+  border-radius:50%;
+  line-height:1.6em;
+  font-size:1.5em;
+  position:relative;
+  left:-22px;
+  top:-11px;
+  background:black;
+}
+
+.contain span{
+    margin-bottom:22px; 
+    display:inline-block;
+}
+
+.contain span:last-child{
+   margin-bottom:-11px;
+}
+
+.fields{
+  border-left:2px solid black
+}
+
+.inputfields{
+  outline:none;
+  display:inline-block;
+  height:34px;
+  vertical-align:middle;
+  position:relative;
+  bottom:14px;
+  right:9px;
+  border-radius:22px;
+  width:220px;
+  box-sizing:border-box;
+  padding:0 18px; 
+  border: 2px solid black;
+ 
+}
+
+.contain h1, .contain span{
+  font-family:"Pt Sans", helvetica, sans-serif;
+}
+
+.contain h1{
+  font-family:"droid serif";
+  font-style:italic;
+  text-align:center;
+  font-size:3em;
+}
